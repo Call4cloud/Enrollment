@@ -74,7 +74,7 @@ break
 }
 
 #### Ask Credentials ####
-Write-Host "Gebruikersnaam AzureAD van $klant " -ForegroundColor "Yellow" -NoNewline
+Write-Host "Customer name AzureAD van $klant " -ForegroundColor "Yellow" -NoNewline
 $user = Read-Host
 $Cred = Get-Credential $user
 
@@ -137,7 +137,9 @@ $headersazurerm = @{
 ##################
 .\DU\DU2a_Create_Dynamic_Groups.ps1
 
-###################
+########################
+## Fetching Group ID's #
+########################
 $URL = "https://graph.microsoft.com/v1.0/groups?"
 $Allgroups = (Invoke-RestMethod -Headers $headers1b -Uri $URL -Method GET).value 
 $group= $Allgroups | Where-Object -Property Displayname -Value "All windows devices" -eq
@@ -189,9 +191,7 @@ $allusersgroupid = $group.id
 .\DU\DU2d_Link_license_to_Group.ps1
 
 
-
-
-#### Klantgegevens ####
+#### CustomerName for the Dedicated Solarwinds app  ####
 $PackagePathCust = "$PackagePath\$klant"
 
 #### Map Solarwinds aanmaken ####
