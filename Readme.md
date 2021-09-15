@@ -45,7 +45,7 @@ Step 7: Configure Windows Hello
 
 Step 8: Deploy Conditional Access
 
-Step 9: Security Level 1
+Step 9: Security Level 1 (In Progress)
 
 
 
@@ -139,6 +139,8 @@ Now let's fire up the Default_Enrollment.ps1. I will shortly describe what it do
 # Step 2 Configure Tenant 
 
 .\DU\DU2a to DU2i
+
+Please note that we are creating the "MS365BusinessLicences" group. This group is used to configure Group Licensing/MDM Scope/Configure who may Join Azure Ad
 
 # Step 3a Create Intune Apps: 
 
