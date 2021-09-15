@@ -1,0 +1,37 @@
+{
+    "@odata.type":  "#microsoft.graph.windows10CustomConfiguration",
+    "id":  "832fd11e-e0ab-4281-b724-f571835b3921",
+    "lastModifiedDateTime":  "2020-03-06T08:56:56.6247424Z",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "supportsScopeTags":  true,
+    "deviceManagementApplicabilityRuleOsEdition":  null,
+    "deviceManagementApplicabilityRuleOsVersion":  null,
+    "deviceManagementApplicabilityRuleDeviceMode":  null,
+    "createdDateTime":  "2020-03-06T08:56:56.6247424Z",
+    "description":  "Skipuserstatuspage",
+    "displayName":  "Windows10_Skip_user_status_page",
+    "version":  1,
+      "omaSettings":  [
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingInteger",
+                            "displayName":  "EnableFirstLogonAnimation",
+                            "description":  null,
+                            "omaUri":  "./Device/Vendor/MSFT/Policy/Config/WindowsLogon/EnableFirstLogonAnimation",
+                            "secretReferenceValueId":  null,
+                            "isEncrypted":  false,
+                            "value":  0,
+                            "isReadOnly":  false
+                        },
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingBoolean",
+                            "displayName":  "./Device/Vendor/MSFT/DMClient/Provider/MS DM Server/FirstSyncStatus/SkipUserStatusPage",
+                            "description":  null,
+                            "omaUri":  "./Device/Vendor/MSFT/DMClient/Provider/MS DM Server/FirstSyncStatus/SkipUserStatusPage",
+                            "secretReferenceValueId":  null,
+                            "isEncrypted":  false,
+                            "value":  true
+                        }
+                    ]
+}

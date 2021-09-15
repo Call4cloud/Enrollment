@@ -1,0 +1,15 @@
+<ApplicationInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ToolVersion="1.4.0.0">
+  <Name>Windows10_enablebitlocker.intunewin</Name>
+  <UnencryptedContentSize>1967</UnencryptedContentSize>
+  <FileName>Windows10_enablebitlocker.intunewin</FileName>
+  <SetupFile>Windows10_enablebitlocker.ps1</SetupFile>
+  <EncryptionInfo>
+    <EncryptionKey>00rX6tWfng+0kYnfo+2hyrVKb4UGigOktndPivANbZ8=</EncryptionKey>
+    <MacKey>azSGzSfk0N/hGPeu5OT9bxTLR7nBjmBizzXrRjVcSE8=</MacKey>
+    <InitializationVector>L7nP0/9haSCpIvppyjo3XQ==</InitializationVector>
+    <Mac>dL/3FXpStsTMdwrkdRjMo9sPdNffTtAJIMYZVIwcu2s=</Mac>
+    <ProfileIdentifier>ProfileVersion1</ProfileIdentifier>
+    <FileDigest>scXmdJB4aTsJhi8UmWBYR844I1TI8yXp8e2iImhcUnk=</FileDigest>
+    <FileDigestAlgorithm>SHA256</FileDigestAlgorithm>
+  </EncryptionInfo>
+</ApplicationInfo>

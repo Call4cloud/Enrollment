@@ -1,0 +1,15 @@
+<ApplicationInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ToolVersion="1.4.0.0">
+  <Name>Windows10_rotate.intunewin</Name>
+  <UnencryptedContentSize>2381</UnencryptedContentSize>
+  <FileName>Windows10_rotate.intunewin</FileName>
+  <SetupFile>Windows10_rotate.ps1</SetupFile>
+  <EncryptionInfo>
+    <EncryptionKey>AeBy3NzE7UlPwVC+65hHdNrMU+qDBqPfLe+cl2BjBNU=</EncryptionKey>
+    <MacKey>N5ZTiDe+/xs16IvbGmdnpGyLUsKVoOI48ftAdOb2Ld4=</MacKey>
+    <InitializationVector>s+H3hbTE/5ENKa5SKUK0xA==</InitializationVector>
+    <Mac>VOJZT6LN+xb50U034fO0RpvuBCJC5uqawcv4yQCQ7pE=</Mac>
+    <ProfileIdentifier>ProfileVersion1</ProfileIdentifier>
+    <FileDigest>DLWHwyUi0jwPmruYgJ02D20/gz6xjVbRHijcbk4yhzM=</FileDigest>
+    <FileDigestAlgorithm>SHA256</FileDigestAlgorithm>
+  </EncryptionInfo>
+</ApplicationInfo>

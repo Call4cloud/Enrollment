@@ -1,0 +1,15 @@
+<ApplicationInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ToolVersion="1.4.0.0">
+  <Name>Windows10_RemoveAdmin.intunewin</Name>
+  <UnencryptedContentSize>1466</UnencryptedContentSize>
+  <FileName>Windows10_RemoveAdmin.intunewin</FileName>
+  <SetupFile>Windows10_RemoveAdmin.ps1</SetupFile>
+  <EncryptionInfo>
+    <EncryptionKey>/09h9izLcpXRWKJUE3J3fgNHp58/fFTvNSvyfqYkngg=</EncryptionKey>
+    <MacKey>U0tgpKN6d6JdoTcZ0Yj0sGS8QM802S/QThqK5ae7nEA=</MacKey>
+    <InitializationVector>9L1z7C2KNth89DbRl4AsHQ==</InitializationVector>
+    <Mac>bcPYfZf1RpPUA0r64RCIwMiMOxHNFiw9xZE+X1iXpWM=</Mac>
+    <ProfileIdentifier>ProfileVersion1</ProfileIdentifier>
+    <FileDigest>AA1RgjEx6VeC8OrkZw3nqNcoAEXVY2PEomV2WJGYVYE=</FileDigest>
+    <FileDigestAlgorithm>SHA256</FileDigestAlgorithm>
+  </EncryptionInfo>
+</ApplicationInfo>

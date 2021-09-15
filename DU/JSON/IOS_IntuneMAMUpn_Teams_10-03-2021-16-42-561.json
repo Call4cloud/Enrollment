@@ -1,0 +1,24 @@
+{
+    "@odata.type":  "#microsoft.graph.iosMobileAppConfiguration",
+    "createdDateTime":  "2021-03-10T15:39:46.6958665Z",
+    "description":  "",
+    "displayName":  "IOS_IntuneMAMUpn_Teams",
+    "encodedSettingXml":  null,
+    "id":  "e9b993cb-d6c9-42a1-868d-dc2e06bb660a",
+    "lastModifiedDateTime":  "2021-03-10T15:39:46.6958665Z",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "settings":  [
+                     {
+                         "appConfigKey":  "IntuneMAMUPN",
+                         "appConfigKeyType":  "stringType",
+                         "appConfigKeyValue":  "{{UserPrincipalName}}"
+                     }
+                 ],
+    "targetedMobileApps":  [
+                               "044d2356-a900-457d-b439-49000d6d8199"
+                           ],
+    "version":  1,
+    "bundleID":  "com.microsoft.skype.teams"
+}

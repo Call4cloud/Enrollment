@@ -1,0 +1,15 @@
+<ApplicationInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ToolVersion="1.4.0.0">
+  <Name>AllowNon-AdministratorsToInstallPrinterDrivers.intunewin</Name>
+  <UnencryptedContentSize>1646</UnencryptedContentSize>
+  <FileName>AllowNon-AdministratorsToInstallPrinterDrivers.intunewin</FileName>
+  <SetupFile>AllowNon-AdministratorsToInstallPrinterDrivers.ps1</SetupFile>
+  <EncryptionInfo>
+    <EncryptionKey>jhHE+VlzgwRTFJe/sf+TvBUEBS7xzeHkqXDoOm4DqcA=</EncryptionKey>
+    <MacKey>NP2j60iyW6kw1gWr/pFQxJdsGHR7TyXZyAa7uXV1M/k=</MacKey>
+    <InitializationVector>qE/We/Ge4gKC4/0tvWoPCA==</InitializationVector>
+    <Mac>b5mFuYcOs3BAj3tO7xLwFn1xzXxiG0j2HNyH2jvhbpk=</Mac>
+    <ProfileIdentifier>ProfileVersion1</ProfileIdentifier>
+    <FileDigest>HghsEFlKmChqVJfGiPcG3T5Ipckt+yVRnemKXacHCiw=</FileDigest>
+    <FileDigestAlgorithm>SHA256</FileDigestAlgorithm>
+  </EncryptionInfo>
+</ApplicationInfo>

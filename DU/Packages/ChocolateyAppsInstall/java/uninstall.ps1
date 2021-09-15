@@ -1,0 +1,1 @@
+choco uninstall jre8 -y

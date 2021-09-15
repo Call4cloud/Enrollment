@@ -1,0 +1,15 @@
+<ApplicationInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ToolVersion="1.4.0.0">
+  <Name>Windows10_Onedrive.intunewin</Name>
+  <UnencryptedContentSize>1916</UnencryptedContentSize>
+  <FileName>Windows10_Onedrive.intunewin</FileName>
+  <SetupFile>Windows10_Onedrive.ps1</SetupFile>
+  <EncryptionInfo>
+    <EncryptionKey>9GEQu25/F9af76fE9W0JH5zYVZiyYAkhm/yWkLUt1Dk=</EncryptionKey>
+    <MacKey>vggkd05sbqIMwq0FXHQSpu/+R/68aL/p2YcLjfOQ8zQ=</MacKey>
+    <InitializationVector>MLYXw01R0wKqO+qL3xzSTg==</InitializationVector>
+    <Mac>2iJ5q3hJaWr9HkzDW9HFPbUja3UB/5EcFEViQpkjTXY=</Mac>
+    <ProfileIdentifier>ProfileVersion1</ProfileIdentifier>
+    <FileDigest>0t+ToY05mn+0c3k27B1vaBFHnbq2pCO4F4g/2Hg0/HU=</FileDigest>
+    <FileDigestAlgorithm>SHA256</FileDigestAlgorithm>
+  </EncryptionInfo>
+</ApplicationInfo>

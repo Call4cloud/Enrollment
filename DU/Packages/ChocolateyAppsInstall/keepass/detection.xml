@@ -1,0 +1,15 @@
+<ApplicationInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ToolVersion="1.4.0.0">
+  <Name>install.ps1</Name>
+  <UnencryptedContentSize>42087</UnencryptedContentSize>
+  <FileName>IntunePackage.intunewin</FileName>
+  <SetupFile>install.ps1</SetupFile>
+  <EncryptionInfo>
+    <EncryptionKey>asyV3ex82QRUoldGw32Q3b910hOdQrWJYVr9G45e6U0=</EncryptionKey>
+    <MacKey>GLz4syEnRonuDIebeadwtOtXg5NTuMYcdFbftm1jzxQ=</MacKey>
+    <InitializationVector>7DxRQeLgjT/QLL+3/hdDjw==</InitializationVector>
+    <Mac>ZoxqJVaVxbD5+BeW5bHbp5srF4yNWEVYFUl7I3HWm9M=</Mac>
+    <ProfileIdentifier>ProfileVersion1</ProfileIdentifier>
+    <FileDigest>xz3/+YT4YHWjG0uqasjYek1VYzzXXVBT37AtObJwFBE=</FileDigest>
+    <FileDigestAlgorithm>SHA256</FileDigestAlgorithm>
+  </EncryptionInfo>
+</ApplicationInfo>

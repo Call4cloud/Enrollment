@@ -1,0 +1,33 @@
+{
+    "@odata.type":  "#microsoft.graph.windows10CustomConfiguration",
+    "id":  "59a9a954-11e4-4b78-8acf-ff92e0cdba0d",
+    "lastModifiedDateTime":  "2020-03-06T08:56:48.4540006Z",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "supportsScopeTags":  true,
+    "deviceManagementApplicabilityRuleOsEdition":  null,
+    "deviceManagementApplicabilityRuleOsVersion":  null,
+    "deviceManagementApplicabilityRuleDeviceMode":  null,
+    "createdDateTime":  "2020-03-06T08:56:48.4540006Z",
+    "description":  "",
+    "displayName":  "Windows10_Create_admin_user",
+    "version":  1,
+    "omaSettings":  [
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingString",
+                            "displayName":  "Password",
+                            "description":  "Create user and password",
+                            "omaUri":  "./Device/Vendor/MSFT/Accounts/Users/admin/Password",
+                            "value": "<<<Password>>>"
+                        },
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingInteger",
+                            "displayName":  "AccountType",
+                            "description":  "Lid van admin maken",
+                            "omaUri":  "./Device/Vendor/MSFT/Accounts/Users/admin/LocalUserGroup",
+                            "value":  2,
+                            "isReadOnly":  false
+                        }
+                    ]
+}

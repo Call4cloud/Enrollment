@@ -1,0 +1,98 @@
+{
+    "@odata.type":  "#microsoft.graph.windows10CustomConfiguration",
+    "id":  "45f29357-e94b-4bf4-a0ac-78489a6f6549",
+    "lastModifiedDateTime":  "2020-03-06T08:56:47.3226358Z",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "supportsScopeTags":  true,
+    "deviceManagementApplicabilityRuleOsEdition":  null,
+    "deviceManagementApplicabilityRuleOsVersion":  null,
+    "deviceManagementApplicabilityRuleDeviceMode":  null,
+    "createdDateTime":  "2020-03-06T08:56:47.3226358Z",
+    "description":  "",
+    "displayName":  "Windows10_Audit",
+    "version":  1,
+    "omaSettings":  [
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingInteger",
+                            "displayName":  "Audit User Account Management",
+                            "description":  null,
+                            "omaUri":  "./Vendor/MSFT/Policy/Config/Audit/AccountManagement_AuditUserAccountManagement",
+                            "value":  3,
+                            "isReadOnly":  false
+                        },
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingInteger",
+                            "displayName":  "Audit Other Object Access Events",
+                            "description":  null,
+                            "omaUri":  "./Vendor/MSFT/Policy/Config/Audit/ObjectAccess_AuditOtherObjectAccessEvents",
+                            "value":  3,
+                            "isReadOnly":  false
+                        },
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingInteger",
+                            "displayName":  "Audit Other System Events",
+                            "description":  null,
+                            "omaUri":  "./Vendor/MSFT/Policy/Config/Audit/System_AuditOtherSystemEvents",
+                            "value":  3,
+                            "isReadOnly":  false
+                        },
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingInteger",
+                            "displayName":  "Audit Security Group Management",
+                            "description":  null,
+                            "omaUri":  "./Vendor/MSFT/Policy/Config/Audit/AccountManagement_AuditSecurityGroupManagement",
+                            "value":  1,
+                            "isReadOnly":  false
+                        },
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingInteger",
+                            "displayName":  "Audit Process Creation",
+                            "description":  null,
+                            "omaUri":  "./Vendor/MSFT/Policy/Config/Audit/DetailedTracking_AuditProcessCreation",
+                            "value":  1,
+                            "isReadOnly":  false
+                        },
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingInteger",
+                            "displayName":  "Audit Logon",
+                            "description":  null,
+                            "omaUri":  "./Vendor/MSFT/Policy/Config/Audit/AccountLogonLogoff_AuditLogon",
+                            "value":  3,
+                            "isReadOnly":  false
+                        },
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingInteger",
+                            "displayName":  "Audit Other Logon/Logoff Events",
+                            "description":  null,
+                            "omaUri":  "./Vendor/MSFT/Policy/Config/Audit/AccountLogonLogoff_AuditOtherLogonLogoffEvents",
+                            "value":  3,
+                            "isReadOnly":  false
+                        },
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingInteger",
+                            "displayName":  "Audit Audit Policy Change",
+                            "description":  null,
+                            "omaUri":  "./Vendor/MSFT/Policy/Config/Audit/PolicyChange_AuditPolicyChange",
+                            "value":  1,
+                            "isReadOnly":  false
+                        },
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingInteger",
+                            "displayName":  "Audit Sensitive Privilege Use",
+                            "description":  null,
+                            "omaUri":  "./Vendor/MSFT/Policy/Config/Audit/PrivilegeUse_AuditSensitivePrivilegeUse",
+                            "value":  3,
+                            "isReadOnly":  false
+                        },
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingInteger",
+                            "displayName":  "Audit Special Logon",
+                            "description":  null,
+                            "omaUri":  "./Vendor/MSFT/Policy/Config/Audit/AccountLogonLogoff_AuditSpecialLogon",
+                            "value":  1,
+                            "isReadOnly":  false
+                        }
+                    ]
+}

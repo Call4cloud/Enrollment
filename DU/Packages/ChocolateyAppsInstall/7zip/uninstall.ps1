@@ -1,0 +1,1 @@
+choco uninstall 7zip -y

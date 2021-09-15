@@ -1,0 +1,1 @@
+powershell.exe -executionpolicy bypass -command "& '.\Windows10_removeadmin.ps1' remove-item"

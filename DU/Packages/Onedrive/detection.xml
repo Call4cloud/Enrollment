@@ -1,0 +1,15 @@
+<ApplicationInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ToolVersion="1.4.0.0">
+  <Name>onedrivesetup.intunewin</Name>
+  <UnencryptedContentSize>30874783</UnencryptedContentSize>
+  <FileName>onedrivesetup.intunewin</FileName>
+  <SetupFile>onedrivesetup.exe</SetupFile>
+  <EncryptionInfo>
+    <EncryptionKey>SjKUhJjjEpDr5i1EZ6TqlIHVgu771a+9ahJwtdCKrgs=</EncryptionKey>
+    <MacKey>2lIoVIUuzze1m2EFwZt1FVWh9Yplc9dHQH7G60SvXag=</MacKey>
+    <InitializationVector>QHqkefbgsRtCAc8HMOoQ7g==</InitializationVector>
+    <Mac>C2eodn/PnxGdeK/1GGsw+BAW8d0uTRjLv1j33ogYgyA=</Mac>
+    <ProfileIdentifier>ProfileVersion1</ProfileIdentifier>
+    <FileDigest>evTEPqkXbQZrdGeIILGrHQKv9nkrcKEg9Bx/iuvWZZ4=</FileDigest>
+    <FileDigestAlgorithm>SHA256</FileDigestAlgorithm>
+  </EncryptionInfo>
+</ApplicationInfo>

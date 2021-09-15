@@ -1,0 +1,1 @@
+choco uninstall vcredist140  -y

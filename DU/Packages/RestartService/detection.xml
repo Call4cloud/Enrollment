@@ -1,0 +1,15 @@
+<ApplicationInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ToolVersion="1.4.0.0">
+  <Name>Windows10_Restartservice.intunewin</Name>
+  <UnencryptedContentSize>1763</UnencryptedContentSize>
+  <FileName>Windows10_Restartservice.intunewin</FileName>
+  <SetupFile>Windows10_Restartservice.ps1</SetupFile>
+  <EncryptionInfo>
+    <EncryptionKey>CmeCdUGcsP7imcUjzgrZgMM/dKyAzuixfzWIDqEdrqY=</EncryptionKey>
+    <MacKey>nm5NKWfn5yQqEkvz27/y30cgUSZJS60fMQ2+5ya2G8w=</MacKey>
+    <InitializationVector>8yAtWdn3sImiGfjI9LVPTA==</InitializationVector>
+    <Mac>LK0XshKL+VJlhCs6T+UwPEAv5MaqdlJErdJOm+PwpYI=</Mac>
+    <ProfileIdentifier>ProfileVersion1</ProfileIdentifier>
+    <FileDigest>c9eNcDJ0WbXHMzgRB8FmOja2NiBH3jBaIlI4mcJCcOI=</FileDigest>
+    <FileDigestAlgorithm>SHA256</FileDigestAlgorithm>
+  </EncryptionInfo>
+</ApplicationInfo>

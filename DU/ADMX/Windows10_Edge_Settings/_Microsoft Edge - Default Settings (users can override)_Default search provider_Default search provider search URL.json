@@ -1,0 +1,11 @@
+{
+    "definition@odata.bind":  "https://graph.microsoft.com/beta/deviceManagement/groupPolicyDefinitions('2b2fd6a8-1846-451f-89cd-5bcf6cd6359a')",
+    "enabled":  "true",
+    "presentationValues":  [
+                               {
+                                   "@odata.type":  "#microsoft.graph.groupPolicyPresentationValueText",
+                                   "value":  "{google:baseURL}search?q={searchTerms}\u0026{google:RLZ}{google:originalQueryForSuggestion}{google:assistedQueryStats}{google:searchFieldtrialParameter}{google:searchClient}{google:sourceId}ie={inputEncoding}",
+                                   "presentation@odata.bind":  "https://graph.microsoft.com/beta/deviceManagement/groupPolicyDefinitions('2b2fd6a8-1846-451f-89cd-5bcf6cd6359a')/presentations('c40aca27-bdc8-43a1-831f-5620acb8025f')"
+                               }
+                           ]
+}

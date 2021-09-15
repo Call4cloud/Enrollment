@@ -1,0 +1,26 @@
+{
+    "@odata.type":  "#microsoft.graph.windows10CustomConfiguration",
+    "id":  "351f460a-5a22-4b2c-8c80-1bf01707fab8",
+    "lastModifiedDateTime":  "2020-03-06T08:56:55.8951656Z",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "supportsScopeTags":  true,
+    "deviceManagementApplicabilityRuleOsEdition":  null,
+    "deviceManagementApplicabilityRuleOsVersion":  null,
+    "deviceManagementApplicabilityRuleDeviceMode":  null,
+    "createdDateTime":  "2020-03-06T08:56:55.8951656Z",
+    "description":  "",
+    "displayName":  "Windows10_RequireBitlockerKey_10FailedLogins",
+    "version":  1,
+    "omaSettings":  [
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingInteger",
+                            "displayName":  "RequireBitlockerkey_failedlogins",
+                            "description":  null,
+                            "omaUri":  "./Device/Vendor/MSFT/Policy/Config/DeviceLock/MaxDevicePasswordFailedAttempts",
+                            "value":  10,
+                            "isReadOnly":  false
+                        }
+                    ]
+}

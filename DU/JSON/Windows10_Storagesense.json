@@ -1,0 +1,66 @@
+{
+    "@odata.type":  "#microsoft.graph.windows10CustomConfiguration",
+    "id":  "49c99821-eef6-48bf-a94f-115cf4d31b9c",
+    "lastModifiedDateTime":  "2020-03-06T08:58:37.2515647Z",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "supportsScopeTags":  true,
+    "deviceManagementApplicabilityRuleOsEdition":  null,
+    "deviceManagementApplicabilityRuleOsVersion":  null,
+    "deviceManagementApplicabilityRuleDeviceMode":  null,
+    "createdDateTime":  "2020-03-06T08:58:37.2515647Z",
+    "description":  "",
+    "displayName":  "Windows10_Storagesense",
+    "version":  1,
+    "omaSettings":  [
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingInteger",
+                            "displayName":  "Enable_storagesense",
+                            "description":  null,
+                            "omaUri":  "./Device/Vendor/MSFT/Policy/Config/Storage/AllowStorageSenseGlobal",
+                            "value":  1,
+                            "isReadOnly":  false
+                        },
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingInteger",
+                            "displayName":  "AllowStorageSenseTemporaryFilesCleanup",
+                            "description":  null,
+                            "omaUri":  "./Device/Vendor/MSFT/Policy/Config/Storage/AllowStorageSenseTemporaryFilesCleanup",
+                            "value":  1,
+                            "isReadOnly":  false
+                        },
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingInteger",
+                            "displayName":  "ConfigStorageSenseCloudContentDehydrationThreshold",
+                            "description":  null,
+                            "omaUri":  "./Device/Vendor/MSFT/Policy/Config/Storage/ConfigStorageSenseCloudContentDehydrationThreshold",
+                            "value":  30,
+                            "isReadOnly":  false
+                        },
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingInteger",
+                            "displayName":  "ConfigStorageSenseDownloadsCleanupThreshold",
+                            "description":  null,
+                            "omaUri":  "./Device/Vendor/MSFT/Policy/Config/Storage/ConfigStorageSenseDownloadsCleanupThreshold",
+                            "value":  90,
+                            "isReadOnly":  false
+                        },
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingInteger",
+                            "displayName":  "ConfigStorageSenseRecycleBinCleanupThreshold",
+                            "description":  null,
+                            "omaUri":  "./Device/Vendor/MSFT/Policy/Config/Storage/ConfigStorageSenseRecycleBinCleanupThreshold",
+                            "value":  7,
+                            "isReadOnly":  false
+                        },
+                        {
+                            "@odata.type":  "#microsoft.graph.omaSettingInteger",
+                            "displayName":  "ConfigStorageSenseGlobalCadence",
+                            "description":  null,
+                            "omaUri":  "./Device/Vendor/MSFT/Policy/Config/Storage/ConfigStorageSenseGlobalCadence",
+                            "value":  7,
+                            "isReadOnly":  false
+                        }
+                    ]
+}

@@ -1,0 +1,66 @@
+{
+    "@odata.type":  "#microsoft.graph.windowsUpdateForBusinessConfiguration",
+    "id":  "1406604d-d53f-4e80-82b6-8679d57ce618",
+    "lastModifiedDateTime":  "2020-04-08T08:06:23.182386Z",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "supportsScopeTags":  true,
+    "deviceManagementApplicabilityRuleOsEdition":  null,
+    "deviceManagementApplicabilityRuleOsVersion":  null,
+    "deviceManagementApplicabilityRuleDeviceMode":  null,
+    "createdDateTime":  "2020-03-06T08:58:38.7221367Z",
+    "description":  "",
+    "displayName":  "Windows10_Update",
+    "version":  2,
+    "deliveryOptimizationMode":  "userDefined",
+    "prereleaseFeatures":  "userDefined",
+    "automaticUpdateMode":  "autoInstallAtMaintenanceTime",
+    "microsoftUpdateServiceAllowed":  true,
+    "driversExcluded":  true,
+    "qualityUpdatesDeferralPeriodInDays":  0,
+    "featureUpdatesDeferralPeriodInDays":  0,
+    "qualityUpdatesPaused":  false,
+    "featureUpdatesPaused":  false,
+    "qualityUpdatesPauseExpiryDateTime":  "0001-01-01T00:00:00Z",
+    "featureUpdatesPauseExpiryDateTime":  "0001-01-01T00:00:00Z",
+    "businessReadyUpdatesOnly":  "businessReadyOnly",
+    "skipChecksBeforeRestart":  false,
+    "updateWeeks":  null,
+    "qualityUpdatesPauseStartDate":  null,
+    "featureUpdatesPauseStartDate":  null,
+    "featureUpdatesRollbackWindowInDays":  10,
+    "qualityUpdatesWillBeRolledBack":  false,
+    "featureUpdatesWillBeRolledBack":  false,
+    "qualityUpdatesRollbackStartDateTime":  "0001-01-01T00:00:00Z",
+    "featureUpdatesRollbackStartDateTime":  "0001-01-01T00:00:00Z",
+    "engagedRestartDeadlineInDays":  null,
+    "engagedRestartSnoozeScheduleInDays":  null,
+    "engagedRestartTransitionScheduleInDays":  null,
+    "deadlineForFeatureUpdatesInDays":  7,
+    "deadlineForQualityUpdatesInDays":  3,
+    "deadlineGracePeriodInDays":  2,
+    "postponeRebootUntilAfterDeadline":  true,
+    "autoRestartNotificationDismissal":  "notConfigured",
+    "scheduleRestartWarningInHours":  4,
+    "scheduleImminentRestartWarningInMinutes":  60,
+    "userPauseAccess":  "disabled",
+    "userWindowsUpdateScanAccess":  "enabled",
+    "updateNotificationLevel":  "restartWarningsOnly",
+    "installationSchedule":  {
+                                 "@odata.type":  "#microsoft.graph.windowsUpdateActiveHoursInstall",
+                                 "activeHoursStart":  "08:00:00.0000000",
+                                 "activeHoursEnd":  "17:00:00.0000000"
+                             },
+ "assignments@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceConfigurations(\u002795db6c26-08b7-4140-ad78-f18b50624491\u0027)/microsoft.graph.windows10CustomConfiguration/assignments",
+    "assignments":  [
+                        {
+                            "id":  "95db6c26-08b7-4140-ad78-f18b50624491_adadadad-808e-44e2-905a-0b7873a8a531",
+                            "source":  "direct",
+                            "sourceId":  "95db6c26-08b7-4140-ad78-f18b50624491",
+                            "target":  {
+                                           "@odata.type":  "#microsoft.graph.allDevicesAssignmentTarget"
+                                       }
+                        }
+                    ]
+}

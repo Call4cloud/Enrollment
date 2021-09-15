@@ -1,0 +1,15 @@
+<ApplicationInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ToolVersion="1.4.0.0">
+  <Name>Windows10_Chocolatey.intunewin</Name>
+  <UnencryptedContentSize>1774</UnencryptedContentSize>
+  <FileName>Windows10_Chocolatey.intunewin</FileName>
+  <SetupFile>Windows10_Chocolatey.ps1</SetupFile>
+  <EncryptionInfo>
+    <EncryptionKey>r+gl07zTNK92/HQMoYCVkSAWYDGn0qH8AHL3VMYYGDQ=</EncryptionKey>
+    <MacKey>ECUsshLfZOq4d87RDWjpHhrqaCqDFENEnu3PanYZBsA=</MacKey>
+    <InitializationVector>fPJcykuQpIFtQcBA+tPWYw==</InitializationVector>
+    <Mac>vycwVQ/rJXko7fLC2HWtzxPdLUoKv1MXkF/NfRwLU68=</Mac>
+    <ProfileIdentifier>ProfileVersion1</ProfileIdentifier>
+    <FileDigest>/PQ0br/idHzhUBew9o3DUx66gBOlhHZ6pQPQOMUoTPM=</FileDigest>
+    <FileDigestAlgorithm>SHA256</FileDigestAlgorithm>
+  </EncryptionInfo>
+</ApplicationInfo>

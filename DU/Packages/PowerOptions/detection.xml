@@ -1,0 +1,15 @@
+<ApplicationInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ToolVersion="1.4.0.0">
+  <Name>Windows10_PowerOptions.intunewin</Name>
+  <UnencryptedContentSize>917</UnencryptedContentSize>
+  <FileName>Windows10_PowerOptions.intunewin</FileName>
+  <SetupFile>Windows10_PowerOptions.ps1</SetupFile>
+  <EncryptionInfo>
+    <EncryptionKey>Heh/Fj3YeuHsj+UT2xbtTWSKJ8isRct27mpu2Png5JU=</EncryptionKey>
+    <MacKey>s78UcUhkM7myC1AktAMd/ntZsLvWxzw9Bx1lwUqkeYQ=</MacKey>
+    <InitializationVector>/IKfFkhixKhFVF+Xnz4TDQ==</InitializationVector>
+    <Mac>1WIJ2+X6uo6o4g1UtJUdpjFPOQ2QoAc+AWtOkcnL+G8=</Mac>
+    <ProfileIdentifier>ProfileVersion1</ProfileIdentifier>
+    <FileDigest>1afhAkOOb/qcZ/bj16ybbdX4QO1tkIScVJh/+mw68n8=</FileDigest>
+    <FileDigestAlgorithm>SHA256</FileDigestAlgorithm>
+  </EncryptionInfo>
+</ApplicationInfo>

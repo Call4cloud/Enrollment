@@ -1,0 +1,24 @@
+{
+    "@odata.type":  "#microsoft.graph.iosMobileAppConfiguration",
+    "createdDateTime":  "2021-03-10T15:33:13.4264328Z",
+    "description":  "",
+    "displayName":  "IOS_IntuneMAMUpn_Outlook",
+    "encodedSettingXml":  null,
+    "id":  "2e44e76c-2c48-47a3-826a-81dce7107905",
+    "lastModifiedDateTime":  "2021-03-10T15:33:13.4264328Z",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "settings":  [
+                     {
+                         "appConfigKey":  "IntuneMAMUPN",
+                         "appConfigKeyType":  "stringType",
+                         "appConfigKeyValue":  "{{UserPrincipalName}}"
+                     }
+                 ],
+    "targetedMobileApps":  [
+                               "96001ddf-4759-48dc-8548-0f28778cd4c5"
+                           ],
+    "version":  1,
+    "bundleID":  "com.microsoft.Office.Outlook"
+}
