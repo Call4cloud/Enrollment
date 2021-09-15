@@ -1,4 +1,7 @@
-﻿#### Install required PowerShell Modules #####
+﻿##############################################
+ #### Install required PowerShell Modules #####
+ ##############################################
+ 
 $PSModules = @("AzureADPreview","AzureAD","msonline","WindowsAutopilotIntune","MSAL.PS")
 
 Foreach ($PSModule in $PSModules){
@@ -80,10 +83,12 @@ $Cred = Get-Credential $user
 
 connect-msgraph -AdminConsent | Out-Null
 
-#### Tokens opvragen ####
-
+############################
+####Getting the tokens ####
+############################
 
 #token Intune Powershell
+
 $RedirectUri = "urn:ietf:wg:oauth:2.0:oob"
 
 $authResult = Get-MsalToken -ClientId 'd1ddf0e4-d672-4dae-b554-9d5bdfd93547' -Scopes 'https://graph.microsoft.com/.default' -RedirectUri $RedirectUri
@@ -96,6 +101,7 @@ $headers1b = @{
             }
 
 #token Azure PowerShell
+
 $authResult = Get-MsalToken -ClientId '1950a258-227b-4e31-a9cf-717495945fc2' -Scopes 'https://graph.microsoft.com/.default'
 $accesstoken1e = $authresult.accesstoken
 
@@ -106,6 +112,7 @@ $headers1e = @{
             }
 
 #token AzureRm
+
 login-azurermaccount -Credential $Cred
 $context = Get-AzureRmContext
 $tenantId = $context.Tenant.Id
@@ -175,17 +182,15 @@ $excludeblocklegacyauthid = $group.id
 $group= $Allgroups | Where-Object -Property Displayname -Value "Exclude_Block_Require_Trusted_Countries" -eq
 $excludeblockcountriesid = $group.id
 
-###################
-# "ALL Users" groepID ophalen
-###################
+##### "ALL Users" groepID ophalen   #####
+
 $group= $Allgroups | Where-Object -Property Displayname -Value "Alle gebruikers" -eq
 if ($group -eq ""){
     $group= $Allgroups | Where-Object -Property Displayname -Value "all users" -eq
 }
 $allusersgroupid = $group.id
+###################################
 
-
-###################
 .\DU\DU2b_Create_Autopilot_Profiles.ps1
 .\DU\DU2c_Autopilot_profile_assignment.ps1
 .\DU\DU2d_Link_license_to_Group.ps1
@@ -210,6 +215,7 @@ New-Item -Path $PackagePathCust -Name "Solarwinds" -ItemType "directory" -force
 ##################
 #### Part 3 ####
 #################
+
 #### Apps uploaden ######
 # Windows10 Apps
 .\DU\DU3b_Windows10_Upload_Basic_Apps.ps1
@@ -239,16 +245,20 @@ New-Item -Path $PackagePathCust -Name "Solarwinds" -ItemType "directory" -force
 ##################
 #### Part 4 ####
 ##################
-# Administratieve Configuraties importeren
+
+### Importing Administrative Templates ########
 .\DU\DU4a_DeviceConfigurationADMX_Import_FromJSON.ps1
 .\DU\Du4a_DeviceConfigurationADMX_Assignment.ps1
-# Apparaat Configuraties importeren
+
+####### Importing Device Configurations #####
 .\DU\Du4b_Windows10_ImportAllDeviceConfigs.ps1
 .\DU\DU4b_AppConfigurationPolicy_ImportFromJSON.ps1
 .\DU\DU4b_AppConfigurationPolicy_Assignment.ps1
-# Powershellscripts importeren
+
+###### Importing Powershellscripts ##############
 .\DU\DU4c_Enroll_Windows10_Powershellscripts.ps1
- # FireWallregels instellen
+
+ #### Importing Firewall Rules ########
 .\DU\DU4d_Windows10_firewallRules.ps1
 
 ##################
