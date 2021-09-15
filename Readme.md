@@ -90,8 +90,8 @@ Step 9: Security Level 1 (In Progress)
 Now we configured the Google account let’s add some apps
 
 1. Open Apps and Android Apps and click on add
-2. Choose  App type: Beheerde/Managed  Google Play en click on “open”
-3. Search of each App and approve it
+2. Choose  App type: Beheerde/Managed  Google Play and click on “open”
+3. Search for each App and approve it
 4. You will need to do this for each app you want to use, so make sure you have added all the apps
 5. No we have added all the apps, we still need to make sure we “sync” them back to Intune… so don’t forget to sync them !!
 
