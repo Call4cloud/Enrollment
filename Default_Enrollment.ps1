@@ -83,10 +83,6 @@ connect-msgraph -AdminConsent | Out-Null
 #### Tokens opvragen ####
 
 
-login-azurermaccount -Credential $Cred
-$context = Get-AzureRmContext
-$tenantId = $context.Tenant.Id
-
 #token Intune Powershell
 $RedirectUri = "urn:ietf:wg:oauth:2.0:oob"
 
@@ -110,8 +106,9 @@ $headers1e = @{
             }
 
 #token AzureRm
-
-
+login-azurermaccount -Credential $Cred
+$context = Get-AzureRmContext
+$tenantId = $context.Tenant.Id
 
 $SubscriptionId = $context.Subscription
 $cache = $context.TokenCache
