@@ -1,5 +1,5 @@
 ###########################################################################
-#        Versie:  1.0 (07-04-2021)
+#        Versie:  1.1 (07-04-2021)
 #        Script:  DU.1A
 #        Dynamic Groups aanmaken  #
 ###########################################################################
@@ -160,6 +160,19 @@ $staticGroupProperties = @{
     "displayName" = "Exclude_Block_Require_trusted_countries";
     "mailEnabled" = $False;
     "mailNickname" = "Exclude_Block_Require_trusted_countries";
+    "membershipRuleProcessingState" = "On";
+    "securityEnabled" = $True
+}
+ 
+invoke-webrequest -Headers $headers -uri "https://graph.microsoft.com/beta/groups" -Body (ConvertTo-Json $staticGroupProperties) -method POST -Verbose
+
+#Update V1.1 Added Group_Creators group for sl1 Teams Security
+
+$staticGroupProperties = @{
+    "description" = "Group_Creators";
+    "displayName" = "Group_Creators";
+    "mailEnabled" = $False;
+    "mailNickname" = "Group_Creators";
     "membershipRuleProcessingState" = "On";
     "securityEnabled" = $True
 }
