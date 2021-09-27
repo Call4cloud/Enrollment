@@ -45,7 +45,7 @@ Step 7: Configure Windows Hello
 
 Step 8: Deploy Conditional Access
 
-Step 9: Security Level 1 (In Progress)
+Step 9: Security Level 1/4 
 
 
 
