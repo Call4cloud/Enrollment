@@ -261,7 +261,10 @@ When using the solarwinds app , make sure you have it in the right location
 
 # Step 9 Import Security Level 1(SL1) 
 
-.\SL\SL1TOTAALps1 
+.\SL\SL1_1.ps1
+.\SL\SL1_2.ps1
+.\SL\SL1_3.ps1
+.\SL\SL1_4.ps1
 
 
 
