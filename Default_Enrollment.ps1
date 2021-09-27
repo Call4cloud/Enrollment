@@ -284,4 +284,12 @@ New-Item -Path $PackagePathCust -Name "Solarwinds" -ItemType "directory" -force
 ##################
 #### Part 9 ####
 ##################
-.\SL1\SL1_1_Totaal.ps1
+
+####Securing Active Directory######
+.\SL1\SL1_1.ps1
+####Securing Configuring Exchange Online######
+.\SL1\SL1_2.ps1
+#####Change Sharepoint Settings ###########
+.\SL1\SL1_3.ps1
+#####Changing Teams and Commerce Settings###### 
+.\SL1\SL1_4.ps1
